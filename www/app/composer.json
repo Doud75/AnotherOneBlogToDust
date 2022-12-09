@@ -1,0 +1,17 @@
+{
+    "name": "adrienquimbre/app",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Doud75",
+            "email": "adrienquimbre@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.3"
+    }
+}
