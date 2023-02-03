@@ -46,12 +46,12 @@ class Post extends BaseEntity
         return $this;
     }
 
-    public function getCreatedAt()
+    public function getCreatedAt(): string
     {
         return $this->createdAt->format('Y-m-d H:i:s');
     }
 
-    public function setcreatedAt($date)
+    public function setCreatedAt($date): static
     {
         $this->createdAt = new \DateTime($date);
         return $this;
